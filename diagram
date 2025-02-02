@@ -1,0 +1,12 @@
+---------------------------------
+|            Car                |
+---------------------------------
+| - make: str                   |
+| - model: str                  |
+| - year: int                   |
+| - price: float                |
+---------------------------------
+| + __init__(self, make, model, year, price) |
+| + display_info(self)            |
+| + apply_discount(self, percentage) |
+---------------------------------
