@@ -1,0 +1,36 @@
++------------------+
+|      User        |
++------------------+
+| - user_id: int   |
+| - name: str      |
+| - surname: str   |
+| - email: str     |
+| - password: str  |
+| - birthday: date |
++------------------+
+| + __init__()     |
+| + get_details()  |
+| + get_age()      |
++------------------+
+
++----------------------+
+|    UserService      |
++----------------------+
+| - users: dict       |
++----------------------+
+| + add_user()        |
+| + find_user()       |
+| + delete_user()     |
+| + update_user()     |
+| + get_number()      |
++----------------------+
+
++----------------------+
+|     UserUtil        |
++----------------------+
+| + generate_user_id() |
+| + generate_password()|
+| + is_strong_password() |
+| + generate_email()   |
+| + validate_email()   |
++----------------------+
